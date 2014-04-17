@@ -1,0 +1,352 @@
+com.bvb.bvbhttptest.bean.VideoBean
+com.bvb.bvbhttptest.util.RtspXmlParser
+com.bvb.bvbhttptest.util.RtspXmlParser$1
+com.bvb.bvbhttptest.util.RtspXmlParser$2
+com.bvb.bvbhttptest.util.XmlParser
+com.bvb.bvbhttptest.util.XmlParser$1
+com.bvb.bvbhttptest.util.XmlParser$2
+com.bvb.bvbhttptest.util.XmlParser$3
+com.bvb.bvbhttptest.util.XmlParser$4
+com.bvb.bvbhttptest.util.XmlParser$5
+com.bvb.bvbhttptest.util.XmlParser$6
+com.bvb.http.BVBDBHelper:
+    private static com.bvb.http.BVBDBHelper instance
+    public static final java.lang.String TAG
+    public static final int DB_VERSION
+    public static final java.lang.String DB_NAME
+    public static final java.lang.String TB_NAME
+    public static final java.lang.String HTTP_URL
+    public static final java.lang.String HTTP_LASTMODIFIED
+    public static final java.lang.String HTTP_ETAG
+    public static final java.lang.String HTTP_LOCALDATA
+    public static final java.lang.String SQL_CREATETABLE
+    39:42:public static com.bvb.http.BVBDBHelper getInstance(android.content.Context)
+    54:58:public void onCreate(android.database.sqlite.SQLiteDatabase)
+    63:65:public void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+    68:71:public synchronized boolean notEmpty()
+    75:80:public synchronized int deleteURL(java.lang.String)
+    86:92:public synchronized int clear()
+    98:102:public synchronized void close()
+    105:113:public synchronized boolean existURL(java.lang.String)
+    118:122:public long insert(android.content.ContentValues)
+    127:143:public synchronized boolean insertURL(com.bvb.http.BVBURL)
+    148:167:public void updateURL(com.bvb.http.BVBURL)
+    171:192:public synchronized com.bvb.http.BVBURL getURL(java.lang.String)
+    198:201:public android.database.Cursor query()
+    205:205:public android.content.Context getContext()
+com.bvb.http.BVBDownLoadTask
+com.bvb.http.BVBDownloadParams
+com.bvb.http.BVBHttpClient
+com.bvb.http.BVBHttpRequest:
+    private static final java.lang.String TAG
+    public static final java.lang.String CACHE_ROOT
+    public static final int BUFFER_SIZE
+    private static final int DEFAULT_THREAD_POOL_SIZE
+    private com.bvb.http.IBVBHttpRequestListener callBack
+    private com.bvb.http.IBVBHttpLoadImageCallBack imageLoadCallBack
+    private com.bvb.http.IBVBHttpLoadTextCallBack textLoadCallBack
+    private com.bvb.http.BVBURL bvbURL
+    private java.util.ArrayList headers
+    65:67:public static varargs com.bvb.http.BVBHttpRequest requestWithURL(android.content.Context,java.lang.String,org.apache.http.NameValuePair[])
+    71:73:public static com.bvb.http.BVBHttpRequest requestWithURL(android.content.Context,java.lang.String,java.util.List)
+    77:78:public static com.bvb.http.BVBHttpRequest requestWithURL(android.content.Context,java.lang.String)
+    82:88:public static varargs com.bvb.http.BVBHttpRequest requestWithURL(android.content.Context,java.lang.String,org.apache.http.Header[])
+    92:111:private static java.lang.String concatParams(org.apache.http.NameValuePair[])
+    115:134:private static java.lang.String concatParams(java.util.List)
+    137:140:public BVBHttpRequest(android.content.Context,java.lang.String)
+    147:148:public void setURL(java.lang.String)
+    151:156:private void initBVBURL(java.lang.String)
+    159:162:public void setPostValueForKey(java.lang.String,java.lang.String)
+    172:221:public void startAsynchronous()
+    224:245:public void startAsynRequestString(com.bvb.http.IBVBHttpLoadTextCallBack)
+    248:269:public void startAsynRequestBitmap(com.bvb.http.IBVBHttpLoadImageCallBack)
+    278:313:public java.io.InputStream startSynchronous()
+    326:331:public static void startDownLoadFile(android.content.Context,com.bvb.http.BVBDownloadParams,com.bvb.http.IBVBDownLoadTaskListener)
+    341:357:public java.lang.String startSyncRequestString()
+    368:377:public android.graphics.Bitmap startSyncRequestBitmap()
+    381:381:public com.bvb.http.BVBURL getBVBurl()
+    385:427:private org.apache.http.HttpResponse requestHttp(boolean,boolean)
+    432:455:private java.io.InputStream getISFromRespone(org.apache.http.HttpResponse)
+    459:466:private android.graphics.Bitmap getBitmapFromCache()
+    471:478:private java.io.InputStream getISFromCache()
+    484:502:private java.lang.String writeInputSteamToCache(java.io.InputStream)
+    507:514:private java.lang.String getHeader(org.apache.http.HttpResponse,java.lang.String)
+    518:519:public void setBVBurl(com.bvb.http.BVBURL)
+    522:522:public com.bvb.http.IBVBHttpRequestListener getListener()
+    526:527:public void setListener(com.bvb.http.IBVBHttpRequestListener)
+    530:530:public com.bvb.http.IBVBHttpLoadImageCallBack getImageLoadCallBack()
+    534:535:public void setImageLoadCallBack(com.bvb.http.IBVBHttpLoadImageCallBack)
+    538:538:public com.bvb.http.IBVBHttpLoadTextCallBack getTextLoadCallBack()
+    542:543:public void setTextLoadCallBack(com.bvb.http.IBVBHttpLoadTextCallBack)
+    546:546:public java.util.ArrayList getHeaders()
+    550:551:public void setHeaders(java.util.ArrayList)
+    554:554:public boolean isCacheEnable()
+    558:559:public void setCacheEnable(boolean)
+    562:562:public boolean isWriteTocache()
+    566:567:public void setWriteTocache(boolean)
+    384:384:static synthetic org.apache.http.HttpResponse access$0(com.bvb.http.BVBHttpRequest,boolean,boolean)
+    42:42:static synthetic com.bvb.http.IBVBHttpRequestListener access$1(com.bvb.http.BVBHttpRequest)
+    430:430:static synthetic java.io.InputStream access$2(com.bvb.http.BVBHttpRequest,org.apache.http.HttpResponse)
+    470:470:static synthetic java.io.InputStream access$3(com.bvb.http.BVBHttpRequest)
+    47:47:static synthetic boolean access$4(com.bvb.http.BVBHttpRequest)
+    45:45:static synthetic com.bvb.http.BVBURL access$5(com.bvb.http.BVBHttpRequest)
+    44:44:static synthetic com.bvb.http.IBVBHttpLoadTextCallBack access$6(com.bvb.http.BVBHttpRequest)
+    40:40:static synthetic android.os.Handler access$7()
+    43:43:static synthetic com.bvb.http.IBVBHttpLoadImageCallBack access$8(com.bvb.http.BVBHttpRequest)
+com.bvb.http.BVBHttpRequest$1
+com.bvb.http.BVBHttpRequest$2
+com.bvb.http.BVBHttpRequest$2$1
+com.bvb.http.BVBHttpRequest$3
+com.bvb.http.BVBHttpRequest$3$1
+com.bvb.http.BVBURL
+com.bvb.http.BVBURL$URLFiled
+com.bvb.http.IBVBDownLoadTaskListener
+com.bvb.http.IBVBHttpLoadImageCallBack
+com.bvb.http.IBVBHttpLoadTextCallBack
+com.bvb.http.IBVBHttpRequestListener
+com.bvb.http.MD5
+com.bvb.http.SimpleDownLoadTaskListener:
+    32:32:public boolean onLoadFileExisting(android.content.Context,com.bvb.http.BVBDownloadParams)
+    38:45:public void onLoadProgress(android.content.Context,com.bvb.http.BVBDownloadParams,int,long,int)
+    49:55:public void onLoadFinish(android.content.Context,com.bvb.http.BVBDownloadParams)
+    59:65:public void onLoadFailed(android.content.Context,com.bvb.http.BVBDownloadParams,int)
+    69:75:public void onLoadCancel(android.content.Context,com.bvb.http.BVBDownloadParams)
+com.iconverge.ct.traffic.BaseActivity
+com.iconverge.ct.traffic.BaseMapActivity
+com.iconverge.ct.traffic.MainActivity
+com.iconverge.ct.traffic.MainActivity$1
+com.iconverge.ct.traffic.MainActivity$2
+com.iconverge.ct.traffic.MainActivity$3
+com.iconverge.ct.traffic.MainActivity$4
+com.iconverge.ct.traffic.MainActivity$5
+com.iconverge.ct.traffic.MainActivity$5$1
+com.iconverge.ct.traffic.MainActivity$6
+com.iconverge.ct.traffic.MainActivity$7
+com.iconverge.ct.traffic.MainActivity$MainHandler
+com.iconverge.ct.traffic.MainActivity$MapPointOverlay
+com.iconverge.ct.traffic.MainActivity$MapPointOverlay$1
+com.iconverge.ct.traffic.SherlockMapActivity
+com.iconverge.ct.traffic.adapter.ActionOptionsAdapter
+com.iconverge.ct.traffic.adapter.ActionOptionsAdapter$ViewHolder
+com.iconverge.ct.traffic.busstation.StationActivity
+com.iconverge.ct.traffic.busstation.StationActivity$1
+com.iconverge.ct.traffic.busstation.StationActivity$2
+com.iconverge.ct.traffic.busstation.StationActivity$2$1
+com.iconverge.ct.traffic.busstation.StationActivity$3
+com.iconverge.ct.traffic.busstation.StationActivity$StationHandler
+com.iconverge.ct.traffic.busstation.StationAdapt:
+    private java.util.List list
+    private com.iconverge.ct.traffic.busstation.StationAdapt$ViewHolder vh
+    30:31:public void initData(java.util.List)
+    36:36:public int getCount()
+    42:42:public java.lang.Object getItem(int)
+    48:48:public long getItemId(int)
+    53:66:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.busstation.StationAdapt$ViewHolder
+com.iconverge.ct.traffic.camera.CameraOverlay
+com.iconverge.ct.traffic.camera.CameraOverlay$1
+com.iconverge.ct.traffic.camera.CameraOverlay$2
+com.iconverge.ct.traffic.camera.ReadXmlByPullService
+com.iconverge.ct.traffic.circum.CircumActivity
+com.iconverge.ct.traffic.circum.CircumActivity$1
+com.iconverge.ct.traffic.circum.CircumActivity$2
+com.iconverge.ct.traffic.circum.CircumActivity$CircumFoodTask
+com.iconverge.ct.traffic.circum.CircumActivity$CircumHandler
+com.iconverge.ct.traffic.circum.CircumResultAdapter:
+    36:36:public java.util.List getResult()
+    40:44:public com.mapabc.mapapi.core.PoiItem[] getResultArray()
+    48:49:public void setResult(java.util.List)
+    52:54:public void clear()
+    58:61:public int getCount()
+    67:67:public java.lang.Object getItem(int)
+    72:72:public long getItemId(int)
+    78:111:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.circum.CircumResultAdapter$ViewHolder
+com.iconverge.ct.traffic.data.Const:
+    public static final java.lang.String SDCARD_BASEPATH
+    public static final java.lang.String LOCALE_COM_ICONVERGE
+    public static int dbVersion
+    public static int screen_width
+    public static int screen_height
+    public static java.lang.String[] actions
+    public static double latitude
+    public static double longitude
+    public static java.lang.String address
+    public static java.lang.String citycode
+    public static java.lang.String admincode
+    public static final int PAGE_MAIN
+    public static final int PAGE_ROUTE
+    public static final int PAGE_ROUTE_ON_MAP
+    public static final int PAGE_SEARCH
+    public static final int PAGE_CIRCUM
+    public static final int PAGE_HOTSPOT
+    public static final int PAGE_PARK
+    public static final int PAGE_BUS
+    public static final java.lang.String TYPE_ROUTE_START
+    public static final java.lang.String TYPE_ROUTE_END
+    public static final java.lang.String TYPE_ROUTE_ON_MAP
+    public static final java.lang.String TYPE_POI
+    public static final int REQUESTCODE_ROUTE_START
+    public static final int REQUESTCODE_ROUTE_END
+    public static final int SHOW_PROGRESSBAR
+    public static final int HIDE_PROGRESSBAR
+    public static final int ERROR
+    public static final java.lang.String URL_
+    public static final java.lang.String URL_USERNAME
+    public static final java.lang.String URL_PASSWORD
+    public static final java.lang.String CAMERA_URL
+    public static final java.lang.String CAMERA_ICPNAME
+    public static final java.lang.String CAMERA_KEY
+    5:5:public Const()
+com.iconverge.ct.traffic.data.DataManager
+com.iconverge.ct.traffic.db.CategoryDao:
+    21:34:public com.iconverge.ct.traffic.bean.CategoryBean getCategoryById(long)
+    38:54:public java.util.ArrayList getCategoryByPId(long)
+    63:83:public boolean execSqlFile(java.io.InputStream)
+com.iconverge.ct.traffic.db.DBHelper:
+    public static final java.lang.String DB_NAME
+    public static final int DB_VERSION
+    public static final java.lang.String TABLE_NAME_CATEGORY
+    public static final java.lang.String FIELD_CATEGORY_SID
+    public static final java.lang.String FIELD_CATEGORY_ID
+    public static final java.lang.String FIELD_CATEGORY_PARENTID
+    public static final java.lang.String FIELD_CATEGORY_NAME
+    25:26:public DBHelper(android.content.Context,int)
+    29:30:public DBHelper(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)
+    35:43:public void onCreate(android.database.sqlite.SQLiteDatabase)
+    48:48:public void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+com.iconverge.ct.traffic.feedback.AddPoiActivity
+com.iconverge.ct.traffic.feedback.AddPoiActivity$1
+com.iconverge.ct.traffic.feedback.AddPoiActivity$2
+com.iconverge.ct.traffic.feedback.AddPoiActivity$2$1
+com.iconverge.ct.traffic.feedback.AddPoiActivity$3
+com.iconverge.ct.traffic.feedback.AddPoiActivity$4
+com.iconverge.ct.traffic.feedback.AddPoiActivity$MyHandler
+com.iconverge.ct.traffic.feedback.CategoryAdapter:
+    24:25:public void refresh(java.util.ArrayList)
+    28:28:public int getCount()
+    33:33:public java.lang.Object getItem(int)
+    39:39:public long getItemId(int)
+    44:44:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    53:65:private android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)
+    70:70:public android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.feedback.CategoryAdapter$ViewHolder
+com.iconverge.ct.traffic.feedback.FeedbackActivity
+com.iconverge.ct.traffic.feedback.FeedbackActivity$1
+com.iconverge.ct.traffic.feedback.FeedbackActivity$2
+com.iconverge.ct.traffic.feedback.FeedbackActivity$3
+com.iconverge.ct.traffic.feedback.FeedbackActivity$4
+com.iconverge.ct.traffic.feedback.FeedbackActivity$5
+com.iconverge.ct.traffic.feedback.FeedbackActivity$6
+com.iconverge.ct.traffic.feedback.FeedbackActivity$7
+com.iconverge.ct.traffic.feedback.FeedbackActivity$MyHandler
+com.iconverge.ct.traffic.feedback.PoiInfoActivity
+com.iconverge.ct.traffic.feedback.PoiInfoActivity$1
+com.iconverge.ct.traffic.feedback.PoiInfoActivity$2
+com.iconverge.ct.traffic.feedback.PoiInfoActivity$3
+com.iconverge.ct.traffic.feedback.PoiInfoActivity$4
+com.iconverge.ct.traffic.feedback.PoiInfoActivity$MyHandler
+com.iconverge.ct.traffic.hotspot.HotspotGridActivity
+com.iconverge.ct.traffic.hotspot.HotspotGridActivity$1
+com.iconverge.ct.traffic.hotspot.HotspotGridActivity$HotspotHandler
+com.iconverge.ct.traffic.hotspot.HotspotGridAdapter:
+    26:26:public int getCount()
+    31:31:public java.lang.Object getItem(int)
+    36:36:public long getItemId(int)
+    42:55:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.hotspot.HotspotGridAdapter$ViewHolder
+com.iconverge.ct.traffic.hotspot.HotspotPopupTypesAdapter
+com.iconverge.ct.traffic.hotspot.HotspotPopupTypesAdapter$ViewHolder
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity$1
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity$2
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity$3
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity$HotspotSearchResultHandler
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultActivity$HotspotSearchTask
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultAdapter:
+    34:38:public com.mapabc.mapapi.core.PoiItem[] getResultArray()
+    42:42:public java.util.List getResult()
+    46:47:public void setResult(java.util.List)
+    50:52:public void clear()
+    56:59:public int getCount()
+    65:65:public java.lang.Object getItem(int)
+    70:70:public long getItemId(int)
+    76:110:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.hotspot.HotspotSearchResultAdapter$ViewHolder
+com.iconverge.ct.traffic.location.CustomLocationOverlay
+com.iconverge.ct.traffic.location.CustomLocationOverlay$1
+com.iconverge.ct.traffic.location.LocationListenerProxy
+com.iconverge.ct.traffic.location.LocationUtil
+com.iconverge.ct.traffic.location.MLocationOverlay
+com.iconverge.ct.traffic.park.ParkActivity
+com.iconverge.ct.traffic.park.ParkActivity$1
+com.iconverge.ct.traffic.park.ParkActivity$2
+com.iconverge.ct.traffic.park.ParkActivity$2$1
+com.iconverge.ct.traffic.park.ParkActivity$ParkHandler
+com.iconverge.ct.traffic.park.ParkAdapter:
+    private com.iconverge.ct.traffic.park.ParkAdapter$ViewHolder vh
+    30:31:public void setParks(java.util.List)
+    34:36:public void removeAndRefresh()
+    39:40:public void removeAll()
+    44:44:public int getCount()
+    49:49:public java.lang.Object getItem(int)
+    54:54:public long getItemId(int)
+    59:77:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.park.ParkAdapter$ViewHolder
+com.iconverge.ct.traffic.park.RegionActivity
+com.iconverge.ct.traffic.park.RegionActivity$1
+com.iconverge.ct.traffic.park.RegionActivity$2
+com.iconverge.ct.traffic.park.RegionActivity$2$1
+com.iconverge.ct.traffic.park.RegionActivity$RegionHandler
+com.iconverge.ct.traffic.park.RegionAdapter:
+    private com.iconverge.ct.traffic.park.RegionAdapter$ViewHolder vh
+    30:31:public void setRegions(java.util.List)
+    34:36:public void removeAndRefresh()
+    39:40:public void removeAll()
+    44:44:public int getCount()
+    49:49:public java.lang.Object getItem(int)
+    54:54:public long getItemId(int)
+    59:73:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.park.RegionAdapter$ViewHolder
+com.iconverge.ct.traffic.poisearch.MyPoiOverlay
+com.iconverge.ct.traffic.poisearch.MyPoiOverlay$1
+com.iconverge.ct.traffic.poisearch.MyPoiOverlay$2
+com.iconverge.ct.traffic.poisearch.MySuggestionProvider
+com.iconverge.ct.traffic.route.PointResultAdapter
+com.iconverge.ct.traffic.route.PointResultAdapter$1
+com.iconverge.ct.traffic.route.PointResultAdapter$ViewHolder
+com.iconverge.ct.traffic.route.RouteActivity
+com.iconverge.ct.traffic.route.RouteActivity$1
+com.iconverge.ct.traffic.route.RouteActivity$2
+com.iconverge.ct.traffic.route.RouteActivity$3
+com.iconverge.ct.traffic.route.RouteActivity$4
+com.iconverge.ct.traffic.route.RouteActivity$5
+com.iconverge.ct.traffic.route.RouteActivity$5$1
+com.iconverge.ct.traffic.route.RouteActivity$RouteHandler
+com.iconverge.ct.traffic.route.RouteActivity$SearchRouteTask
+com.iconverge.ct.traffic.route.RouteListActivity
+com.iconverge.ct.traffic.route.RouteListActivity$1
+com.iconverge.ct.traffic.route.RouteListActivity$1$1
+com.iconverge.ct.traffic.route.RouteListActivity$RouteHandler
+com.iconverge.ct.traffic.route.RouteListAdapter
+com.iconverge.ct.traffic.route.RouteListAdapter$1
+com.iconverge.ct.traffic.route.RouteListAdapter$ViewHolder
+com.iconverge.ct.traffic.util.FileUtils
+com.iconverge.ct.traffic.util.GeocoderUtil
+com.iconverge.ct.traffic.util.GeocoderUtil$1
+com.iconverge.ct.traffic.util.ImageUtil
+com.iconverge.ct.traffic.view.CheckedListAdapter:
+    java.lang.String[] mData
+    private int type
+    206:207:public void setType(int)
+    216:216:public int getCount()
+    221:221:public java.lang.Object getItem(int)
+    226:226:public long getItemId(int)
+    231:272:public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+com.iconverge.ct.traffic.view.CheckedListAdapter$ViewHolder
+com.iconverge.ct.traffic.view.CircleProgressDialog:
+    33:35:public void setMessage(java.lang.String)
+    38:38:public boolean isShowing()
+    42:43:public void show()
+    46:47:public void dismiss()
+com.iconverge.ct.traffic.view.CustomDialog

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean
+END
+Step.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/Step.class
+END
+PoiResultBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/PoiResultBean.class
+END
+CategoryBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/CategoryBean.class
+END
+ParkBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/ParkBean.class
+END
+CameraPoiBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/CameraPoiBean.class
+END
+RegionBean.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/iconverge/ct/traffic/bean/RegionBean.class
+END

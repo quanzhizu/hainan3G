@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <!-- Content description for the action bar "up" affordance. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <!-- Content description for the action menu overflow button. [CHAR LIMIT=NONE] -->
+    <string name="abs__action_menu_overflow_description">More options</string>
+
+    <!-- Label for the "Done" button on the far left of action mode toolbars. -->
+    <string name="abs__action_mode_done">Done</string>
+
+    <!-- Title for a button to expand the list of activities in ActivityChooserView [CHAR LIMIT=25] -->
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <!-- Title default for a dialog showing possible activities in ActivityChooserView [CHAR LIMIT=25] -->
+    <string name="abs__activity_chooser_view_dialog_title_default">Select activity</string>
+    <!-- Title for a dialog showing possible activities for sharing in ShareActionProvider [CHAR LIMIT=25] -->
+    <string name="abs__share_action_provider_share_with">Share with...</string>
+    <!-- Description of the shwoing of a popup window with activities to choose from. [CHAR LIMIT=NONE] -->
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <!-- Description of the choose target button in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <!-- Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] -->
+    <string name="abs__shareactionprovider_share_with_application">Share with <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+
+    <!-- SearchView accessibility description for search button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_search">Search</string>
+    <!-- SearchView accessibility description for search text field [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_query">Search query</string>
+    <!-- SearchView accessibility description for clear button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <!-- SearchView accessibility description for submit button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <!-- SearchView accessibility description for voice button [CHAR LIMIT=NONE] -->
+    <string name="abs__searchview_description_voice">Voice search</string>
+    
+    <string name="ct_traffic__app_name">交通地图</string>
+    <string name="ct_traffic__maps_api_key">d6f65c653dd6efc5dd284f9b37f57b71c5f90a932a79f14120945873482b7823caabe2fcde848722</string>
+    <string name="ct_traffic__map">地图</string>
+    <string name="ct_traffic__route">路线</string>
+    <string name="ct_traffic__circum">周边美食</string>
+    <string name="ct_traffic__hotspot">热点信息</string>
+    <string name="ct_traffic__car_park">停车场</string>
+    <string name="ct_traffic__bus_stop">公交站</string>
+    <string name="ct_traffic__real_time_traffic">实时路况</string>
+    <string name="ct_traffic__satellite_view">卫星视图</string>
+    <string name="ct_traffic__tips">提示</string>
+    <string name="ct_traffic__ok">确定</string>
+    <string name="ct_traffic__total_of">【共{0}家】</string>
+    <string name="ct_traffic__start">起点：</string>
+    <string name="ct_traffic__end">终点：</string>
+    <string name="ct_traffic__my_point">我的位置</string>
+    <string name="ct_traffic__point_on_map">地图上的点</string>
+    <string name="ct_traffic__tips_choice_start">请选择起点</string>
+    <string name="ct_traffic__tips_choice_end">请选择终点</string>
+    <string name="ct_traffic__choice_start">在地图上点击您的起点</string>
+    <string name="ct_traffic__choice_end">在地图上点击您的终点</string>
+    <string name="ct_traffic__click_to_choice">点击选择此点</string>
+    <string name="ct_traffic__get_route">获取路线</string>
+    <string name="ct_traffic__searching_route">正在获取路线</string>
+    <string name="ct_traffic__route_on_map">地图视图</string>
+    <string name="ct_traffic__from">从</string>
+    <string name="ct_traffic__to">到</string>
+    <string name="ct_traffic__search_hint">输入地点</string>
+    <string name="ct_traffic__route_">路程:</string>
+    <string name="ct_traffic___meter">{0}米</string>
+    <string name="ct_traffic___km">{0}千米</string>
+    <string name="ct_traffic__need_time">大约需要：{0}</string>
+    <string name="ct_traffic__swapped_start_end">起点和终点对调</string>
+    <string name="ct_traffic__from_a_to_b">从 {0} 到 {1}</string>
+    <string name="ct_traffic__main_search_hint">搜索地图</string>
+    <string name="ct_traffic__main_search_ing">查找中...</string>
+    <string name="ct_traffic__can_not_get_location">无法取得当前位置</string>
+    <string name="ct_traffic__car_park_open">开放</string>
+    <string name="ct_traffic__car_park_stop">暂停</string>
+    <string name="ct_traffic__car_park_total">可用/总共：</string>
+    <string name="ct_traffic__car_park_address">地址：</string>
+    <string name="ct_traffic__refresh_time">刷新时间：</string>
+    <string name="ct_traffic__query_ing">查询中...</string>
+    <string name="ct_traffic__query_error">暂无结果，请稍候再试</string>
+    <string name="ct_traffic__press_again_to_exit">再按一次退出</string>
+    <string name="ct_traffic__rtsp_illegal">视频地址无效</string>
+    <string name="ct_traffic__get_rtsp">获取视频位置信息...</string>
+    <string name="ct_traffic__click_to_play">点击观看</string>
+    <string name="ct_traffic__feedback">反馈</string>
+    <string name="ct_traffic__feedback_name_error">名称不正确</string>
+    <string name="ct_traffic__feedback_address_error">地址不正确</string>
+    <string name="ct_traffic__feedback_tel_error">电话不正确</string>
+    <string name="ct_traffic__feedback_place_error">位置不正确</string>
+    <string name="ct_traffic__feedback_other_error">其他</string>
+    <string name="ct_traffic__description">描述</string>
+    <string name="ct_traffic__input_description">请输入详细描述</string>
+    <string name="ct_traffic__submit">提交</string>
+    <string name="ct_traffic__name_">名称：</string>
+    <string name="ct_traffic__type_">类型：</string>
+    <string name="ct_traffic__address_">地址：</string>
+    <string name="ct_traffic__tel_">电话：</string>
+    <string name="ct_traffic__feedback_contact">联系方式</string>
+    <string name="ct_traffic__please_input_feedback_contact">请输入联系方式</string>
+    <string name="ct_traffic__input_feedback_contact">姓名/电话/email</string>
+    <string name="ct_traffic__thanks_for_feedback">谢谢您的反馈</string>
+    <string name="ct_traffic__submit_error">提交失败，请稍候再试</string>
+    <string name="ct_traffic__poi_info">位置信息</string>
+    <string name="ct_traffic__feedback_findbug">报错</string>
+    <string name="ct_traffic__feedback_add_poi">新增</string>
+    <string name="ct_traffic__feedback_edit_poi">修改</string>
+    <string name="ct_traffic__feedback_del_poi">删除</string>
+    <string name="ct_traffic__input_del_description">请输入删除原因</string>
+    <string name="ct_traffic__select_type">选择分类</string>
+    <string name="ct_traffic__cn_name">中文名</string>
+    <string name="ct_traffic__input_cn_name">请输入中文名</string>
+    <string name="ct_traffic__en_name">英文名</string>
+    <string name="ct_traffic__input_en_name">英文名</string>
+    <string name="ct_traffic__an_name">别    名</string>
+    <string name="ct_traffic__input_an_name">别名</string>
+    <string name="ct_traffic__keyword">关键字</string>
+    <string name="ct_traffic__pi">描    述</string>
+    <string name="ct_traffic__category">分    类</string>
+    <string name="ct_traffic__input_kw">请输入关键字</string>
+    <string name="ct_traffic__tel">电    话</string>
+    <string name="ct_traffic__input_tel">电话</string>
+    <string name="ct_traffic__address">地    址</string>
+    <string name="ct_traffic__input_address">请输入地址</string>
+    <string name="ct_traffic__luser">您的姓名</string>
+    <string name="ct_traffic__input_luser">您的姓名</string>
+    <string name="ct_traffic__ltel">您的联系方式</string>
+    <string name="ct_traffic__input_ltel">您的联系方式</string>
+    <string name="ct_traffic__about">关于</string>
+    <string name="ct_traffic__title">标题</string>
+    <string name="ct_traffic__delete">删除</string>
+    <string name="ct_traffic__loading">正在加载</string>
+    <string name="ct_traffic__please_wait">请稍候…</string>
+    <string name="ct_traffic__distance_500">500米</string>
+    <string name="ct_traffic__distance_1000">1000米</string>
+    <string name="ct_traffic__distance_2000">2000米</string>
+    <string name="ct_traffic__distance_3000">3000米</string>
+    <string name="ct_traffic__distance_5000">5000米</string>
+    <string name="ct_traffic__distance_all">全城</string>
+    <string name="ct_traffic__sort_by_default">默认排序</string>
+</resources>

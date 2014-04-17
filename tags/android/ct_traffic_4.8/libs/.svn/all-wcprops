@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs
+END
+core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/core.jar
+END
+gson-1.7.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/gson-1.7.1.jar
+END
+poisearch_route.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/poisearch_route.jar
+END
+map.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/map.jar
+END
+geocoder_location.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/geocoder_location.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/libs/android-support-v4.jar
+END

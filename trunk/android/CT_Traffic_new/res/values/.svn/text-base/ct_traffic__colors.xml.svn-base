@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <color name="ct_traffic__color_red">#7f00</color>
+    <color name="ct_traffic__color_blue">#770000ff</color>
+    <color name="ct_traffic__color_green">#7700ff00</color>
+    <color name="ct_traffic__color_yellow">#77ffff00</color>
+    <color name="ct_traffic__color_white">#FFFFFFFF</color>
+    <color name="ct_traffic__color_black">#FF000000</color>
+    <color name="ct_traffic__color_title_text">#FF777777</color>
+    <color name="ct_traffic__color_bottom_text">#FF93989d</color>
+    <color name="ct_traffic__color_list_cache_hint">#00000000</color>
+    <color name="ct_traffic__color_list_backgroud">#FFFFFFFF</color>
+    <color name="ct_traffic__text_color_deep_gray">#404040</color>
+    <color name="ct_traffic__layout_color_gray">#55000000</color>
+    <color name="ct_traffic__text_color_gray">#FF777777</color>
+    <color name="ct_traffic__layout_bg">#FFeeeeee</color>
+    <color name="ct_traffic__color_receiver_text">#ff4c5663</color>
+    <color name="ct_traffic__color_single_choice_text">#FF323232</color>
+    <color name="ct_traffic__dialog_line_color">#FF4169e1</color>
+    <color name="ct_traffic__body_text_1">#ff000000</color>
+    <color name="ct_traffic__body_text_2">#99000000</color>
+    <color name="ct_traffic__body_text_disabled">#66000000</color>
+    <color name="ct_traffic__body_text_1_inverse">#ffffffff</color>
+    <color name="ct_traffic__body_text_2_inverse">#99ffffff</color>
+    <color name="ct_traffic__accent_1">#ff29549f</color>
+    <color name="ct_traffic__hyperlink">#ffff549f</color>
+    <color name="ct_traffic__background_1">#ffffffff</color>
+    <color name="ct_traffic__whats_on_separator">#4d000000</color>
+    <color name="ct_traffic__all_track_color">#ff222222</color>
+    <color name="ct_traffic__block_column_1">#ff0fabff</color>
+    <color name="ct_traffic__block_column_2">#ffdf1831</color>
+    <color name="ct_traffic__block_column_3">#ff009939</color>
+    <color name="ct_traffic__color_my_place">#ff02591b</color>
+
+    <drawable name="ct_traffic__ab_bg_black">#aa000000</drawable>
+    <drawable name="ct_traffic__ab_bg_split_black">#cc000000</drawable>
+
+    <color name="ct_traffic__transparent_gray">#A000</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <color name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</color>
+    <color name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</color>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</color>
+    <color name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</color>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+
+</resources>

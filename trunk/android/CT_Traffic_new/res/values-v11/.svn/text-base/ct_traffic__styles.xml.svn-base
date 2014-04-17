@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CT__AppTheme" parent="@android:style/Theme.Holo.Light"></style>
+
+    <style name="CT__AppTheme.ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar"></style>
+
+    <style name="CT__AppTheme.ProgressBar.Small" parent="@android:style/Widget.Holo.Light.ProgressBar.Small"></style>
+
+</resources>

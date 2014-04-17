@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autonavi="http://schemas.android.com/apk/res/com.mapabc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.mapabc.mapapi.map.MapView
+        android:id="@+id/ct_traffic__mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="@string/ct_traffic__maps_api_key" 
+        android:clickable="true" />
+    <ImageView
+        android:id="@+id/ct_traffic__mylocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ct_traffic__btn_myl" />
+
+</RelativeLayout>

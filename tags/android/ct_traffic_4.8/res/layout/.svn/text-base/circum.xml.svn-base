@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/circum_ll_mylocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/circum_tv_mylocation_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="当前位置："
+            android:textColor="@color/color_black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/circum_tv_mylocation_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="杭州市西湖区西溪路618号"
+            android:textColor="@color/color_black"
+            android:textSize="18dp" />
+
+        <HorizontalScrollView
+            android:id="@+id/circum_hsv_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <RadioGroup
+                android:id="@+id/circum_rg_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/circum_rb_500"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/MyRadioButton"
+                    android:checked="true"
+                    android:text=" 500米"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_1000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/MyRadioButton"
+                    android:text="1公里"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_3000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/MyRadioButton"
+                    android:text="3公里"
+                    android:textSize="20dp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_5000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/MyRadioButton"
+                    android:text="5公里"
+                    android:textSize="20dp" />
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/circum_ll_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circum_ll_mylocation"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/circum_pb"
+            style="@style/AppTheme.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/circum_tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="载入中..."
+            android:textColor="@color/color_black"
+            android:textSize="20dp" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/circum_lv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/color_list_cache_hint"
+        android:background="@color/color_list_backgroud"
+        android:layout_below="@id/circum_ll_progressbar"
+        android:fastScrollEnabled="true" />
+
+</RelativeLayout>

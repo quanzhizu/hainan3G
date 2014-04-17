@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/ct_traffic__swapped_start_end"
+        android:id="@+id/settings_swapped_start_end" />
+</menu>

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation
+END
+PropertyValuesHolder$FloatPropertyValuesHolder.class
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder$FloatPropertyValuesHolder.class
+END
+KeyframeSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/KeyframeSet.class
+END
+Animator$AnimatorListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Animator$AnimatorListener.class
+END
+AnimatorListenerAdapter.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorListenerAdapter.class
+END
+Keyframe$FloatKeyframe.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe$FloatKeyframe.class
+END
+Keyframe$ObjectKeyframe.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe$ObjectKeyframe.class
+END
+AnimatorSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.class
+END
+AnimatorSet$Dependency.class
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$Dependency.class
+END
+IntKeyframeSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/IntKeyframeSet.class
+END
+AnimatorSet$Node.class
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$Node.class
+END
+PropertyValuesHolder.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder.class
+END
+PropertyValuesHolder$IntPropertyValuesHolder.class
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder$IntPropertyValuesHolder.class
+END
+FloatKeyframeSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/FloatKeyframeSet.class
+END
+Keyframe$IntKeyframe.class
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe$IntKeyframe.class
+END
+ValueAnimator.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.class
+END
+ValueAnimator$AnimationHandler.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$AnimationHandler.class
+END
+Animator.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Animator.class
+END
+AnimatorSet$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$1.class
+END
+IntEvaluator.class
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/IntEvaluator.class
+END
+ValueAnimator$AnimatorUpdateListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$AnimatorUpdateListener.class
+END
+FloatEvaluator.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/FloatEvaluator.class
+END
+ValueAnimator$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$1.class
+END
+ValueAnimator$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$2.class
+END
+ValueAnimator$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$3.class
+END
+ValueAnimator$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$4.class
+END
+AnimatorSet$DependencyListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$DependencyListener.class
+END
+ValueAnimator$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator$5.class
+END
+ObjectAnimator.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.class
+END
+AnimatorSet$Builder.class
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$Builder.class
+END
+Keyframe.class
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe.class
+END
+TypeEvaluator.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/TypeEvaluator.class
+END
+AnimatorSet$AnimatorSetListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet$AnimatorSetListener.class
+END

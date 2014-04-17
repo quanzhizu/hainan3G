@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout
+END
+busstation_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/busstation_listview.xml
+END
+hotspot_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_grid_item.xml
+END
+hotspot_search_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_search_result.xml
+END
+route_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/route_list.xml
+END
+abs__activity_chooser_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__activity_chooser_view.xml
+END
+park.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/park.xml
+END
+point_result_option_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/point_result_option_item.xml
+END
+dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/dialog.xml
+END
+video_list_item1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/video_list_item1.xml
+END
+hotspot_search_result_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_search_result_item.xml
+END
+bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/bottom.xml
+END
+abs__dialog_title_holo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__dialog_title_holo.xml
+END
+layers_option_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/layers_option_item.xml
+END
+abs__action_bar_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_bar_tab.xml
+END
+abs__screen_simple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__screen_simple.xml
+END
+multi_checked_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/multi_checked_item.xml
+END
+abs__screen_simple_overlay_action_mode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__screen_simple_overlay_action_mode.xml
+END
+none_checked_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/none_checked_item.xml
+END
+action_bar_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/action_bar_menu.xml
+END
+abs__action_mode_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_mode_bar.xml
+END
+abs__action_bar_tab_bar_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_bar_tab_bar_view.xml
+END
+player.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/player.xml
+END
+hotspot_popup_types.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_popup_types.xml
+END
+abs__list_menu_item_checkbox.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__list_menu_item_checkbox.xml
+END
+abs__action_mode_close_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_mode_close_item.xml
+END
+abs__search_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__search_view.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/main.xml
+END
+hotspot_popup_types_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_popup_types_item.xml
+END
+abs__screen_action_bar_overlay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__screen_action_bar_overlay.xml
+END
+action_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/action_options.xml
+END
+dialog_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/dialog_list.xml
+END
+hotspot_popup_distance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot_popup_distance.xml
+END
+abs__list_menu_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__list_menu_item_layout.xml
+END
+hotspot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/hotspot.xml
+END
+sherlock_spinner_dropdown_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/sherlock_spinner_dropdown_item.xml
+END
+popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/popup.xml
+END
+single_checked_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/single_checked_item.xml
+END
+route_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/route_list_item.xml
+END
+abs__list_menu_item_icon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__list_menu_item_icon.xml
+END
+abs__simple_dropdown_hint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__simple_dropdown_hint.xml
+END
+park_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/park_item.xml
+END
+navsearch_list_poi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/navsearch_list_poi.xml
+END
+item_gray_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/item_gray_color.xml
+END
+abs__list_menu_item_radio.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__list_menu_item_radio.xml
+END
+poi_result_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/poi_result_list.xml
+END
+circum.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/circum.xml
+END
+abs__action_menu_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_menu_layout.xml
+END
+action_option_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/action_option_item.xml
+END
+region.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/region.xml
+END
+abs__screen_action_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__screen_action_bar.xml
+END
+sherlock_spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/sherlock_spinner_item.xml
+END
+abs__popup_menu_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__popup_menu_item_layout.xml
+END
+busstation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/busstation.xml
+END
+abs__action_bar_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_bar_home.xml
+END
+double_checked_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/double_checked_item.xml
+END
+route.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/route.xml
+END
+abs__action_menu_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_menu_item_layout.xml
+END
+region_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/region_item.xml
+END
+point_result_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/point_result_options.xml
+END
+abs__action_bar_title_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__action_bar_title_item.xml
+END
+abs__activity_chooser_view_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__activity_chooser_view_list_item.xml
+END
+abs__search_dropdown_item_icons_2line.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/abs__search_dropdown_item_icons_2line.xml
+END
+dialog_progressbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/dialog_progressbar.xml
+END
+layers_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/layers_options.xml
+END
+camera_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/camera_popup.xml
+END
+main_bottom_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/main_bottom_text.xml
+END
+popup_choice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/popup_choice.xml
+END
+dialog_yes_no_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/layout/dialog_yes_no_message.xml
+END

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__cn_name"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/cn_name_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_cn_name"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__en_name"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/en_name_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_en_name"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+			<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__category"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+            <Spinner
+                android:id="@+id/spinner_category1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner_category2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner_category3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__an_name"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/an_name_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_an_name"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/pi_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"  >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__pi"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/pi_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_description"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__keyword"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/kw_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_kw"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__tel"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/tel_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_tel"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__address"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/addr_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_address"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__luser"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/luser_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_luser"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ct_traffic__ltel"
+                android:textColor="@color/ct_traffic__text_color_gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ltel_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ct_traffic__input_ltel"
+                android:singleLine="true"
+                android:textColor="@color/ct_traffic__color_black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/ct_traffic__submit"
+            android:textColor="@color/ct_traffic__name_textview_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

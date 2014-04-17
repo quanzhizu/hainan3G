@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color
+END
+abs__primary_text_disable_only_holo_dark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/abs__primary_text_disable_only_holo_dark.xml
+END
+grid_textview_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/grid_textview_color.xml
+END
+abs__primary_text_holo_light.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/abs__primary_text_holo_light.xml
+END
+abs__primary_text_disable_only_holo_light.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/abs__primary_text_disable_only_holo_light.xml
+END
+distance_textview_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/distance_textview_color.xml
+END
+body_textview_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/body_textview_color.xml
+END
+abs__primary_text_holo_dark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/abs__primary_text_holo_dark.xml
+END
+name_textview_color.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/res/color/name_textview_color.xml
+END

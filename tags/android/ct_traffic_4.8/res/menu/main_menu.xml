@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/settings_real_time_traffic"
+        android:checkable="true"
+        android:title="@string/real_time_traffic"/>
+    <item
+        android:id="@+id/settings_satellite_view"
+        android:checkable="true"
+        android:title="@string/satellite_view"/>
+    <!-- 
+    <item
+        android:id="@+id/settings_test"
+        android:title="视频测试"/>
+     -->
+
+</menu>

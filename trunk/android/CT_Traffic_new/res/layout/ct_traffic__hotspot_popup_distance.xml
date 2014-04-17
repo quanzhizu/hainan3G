@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ct_traffic__left_filter_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <RadioGroup
+        android:id="@+id/popup_distance_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/popup_distance_rb_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ct_traffic__radiobutton_selector"
+            android:checked="true"
+            android:paddingLeft="25dp"
+            android:text="@string/ct_traffic__distance_500"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/popup_distance_rb_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ct_traffic__radiobutton_selector"
+            android:paddingLeft="25dp"
+            android:text="@string/ct_traffic__distance_1000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/popup_distance_rb_2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ct_traffic__radiobutton_selector"
+            android:paddingLeft="25dp"
+            android:text="@string/ct_traffic__distance_2000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/popup_distance_rb_5000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ct_traffic__radiobutton_selector"
+            android:paddingLeft="25dp"
+            android:text="@string/ct_traffic__distance_5000"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/popup_distance_rb_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/ct_traffic__radiobutton_selector"
+            android:paddingLeft="25dp"
+            android:text="@string/ct_traffic__distance_all"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+</LinearLayout>

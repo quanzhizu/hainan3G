@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc
+END
+DatabaseManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/DatabaseManager.java
+END
+PhoneStateReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/PhoneStateReceiver.java
+END
+BitmapCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/BitmapCache.java
+END
+VlcCrashHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/VlcCrashHandler.java
+END
+Aout.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/Aout.java
+END
+LibVLC.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/LibVLC.java
+END
+VlcRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/VlcRunnable.java
+END
+EventManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/EventManager.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/Util.java
+END
+Media.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/Media.java
+END
+TrackInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/TrackInfo.java
+END
+RepeatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/RepeatType.java
+END
+VLCCallbackTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/VLCCallbackTask.java
+END
+WeakHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/WeakHandler.java
+END
+LibVlcException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/LibVlcException.java
+END
+MurmurHash.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/MurmurHash.java
+END

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="init" basedir=".">
+    <!-- 设置我们Ant任务的初始化工作     -->
+    <target name="init">
+       <!--工程名称-->
+       <property name="project_name" value="CT_Traffic" />
+       <!--java源文件所在路径是当前路径的src-->
+       <property name="srcDir" value="." />
+       <!--编译生成的class文件在当前路径的classes目录下-->
+       <property name="classDir" value="classes" />
+       <!--jar包名称为本工程的名称加上.jar后缀名-->
+       <property name="jar" value="${project_name}_temp.jar" />
+       <!--jar包名称为本工程的名称加上.jar后缀名-->
+       <property name="obfjar" value="${project_name}.jar" />
+       <!--yguard混淆器工作产生的日志文件-->
+       <property name="obfuscationlog" value="${project_name}_obf_log.xml" />
+       <mkdir dir="${classDir}" />
+    </target>
+ 
+    <!-- 编译 -->
+    <target name="compile" depends="init">
+       <javac srcdir="${srcDir}" destdir="${classDir}">
+       </javac>
+    </target>
+ 
+    <!-- 打包 -->
+    <target name="jar" depends="compile">
+       <jar jarfile="${jar}" basedir="${classDir}" includes="CT_Traffic/**">
+       </jar>
+    </target>
+ 
+    <!-- 删除所有已经编译的class文件 -->
+    <target name="clean" depends="init">
+       <delete dir="${classDir}" includeEmptyDirs="true" />
+    </target>
+</project>
+ 
+<!-- build.xml 文件结束 -->

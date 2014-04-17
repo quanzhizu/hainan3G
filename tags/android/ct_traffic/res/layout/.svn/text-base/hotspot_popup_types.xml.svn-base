@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/middle_filter_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="11dp"
+    android:paddingTop="9dp" >
+
+    <ListView
+        android:id="@+id/hotspot_popup_types_lv_types"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp" >
+    </ListView>
+
+</LinearLayout>

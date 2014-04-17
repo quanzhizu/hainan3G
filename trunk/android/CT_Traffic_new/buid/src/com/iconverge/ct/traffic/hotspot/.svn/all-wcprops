@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot
+END
+HotspotSearchResultActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot/HotspotSearchResultActivity.java
+END
+HotspotGridActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot/HotspotGridActivity.java
+END
+HotspotSearchResultAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot/HotspotSearchResultAdapter.java
+END
+HotspotGridAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot/HotspotGridAdapter.java
+END
+HotspotPopupTypesAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/buid/src/com/iconverge/ct/traffic/hotspot/HotspotPopupTypesAdapter.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http
+END
+BVBDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBDBHelper.java
+END
+IBVBHttpRequestListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/IBVBHttpRequestListener.java
+END
+BVBHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBHttpRequest.java
+END
+IBVBHttpLoadImageCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/IBVBHttpLoadImageCallBack.java
+END
+IBVBDownLoadTaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/IBVBDownLoadTaskListener.java
+END
+BVBDownLoadTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBDownLoadTask.java
+END
+IBVBHttpLoadTextCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/IBVBHttpLoadTextCallBack.java
+END
+BVBDownloadParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBDownloadParams.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/MD5.java
+END
+BVBHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBHttpClient.java
+END
+SimpleDownLoadTaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/SimpleDownLoadTaskListener.java
+END
+BVBURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/bvb/http/BVBURL.java
+END

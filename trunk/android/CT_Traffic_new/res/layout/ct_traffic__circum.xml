@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ct_traffic__color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/circum_ll_mylocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/circum_tv_mylocation_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ct_traffic__color_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/circum_tv_mylocation_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/ct_traffic__color_black"
+            android:textSize="18sp" />
+
+        <HorizontalScrollView
+            android:id="@+id/circum_hsv_distance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <RadioGroup
+                android:id="@+id/circum_rg_distance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/circum_rb_500"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ct_traffic__MyRadioButton"
+                    android:checked="true"
+                    android:text="@string/ct_traffic__distance_500"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_1000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ct_traffic__MyRadioButton"
+                    android:text="@string/ct_traffic__distance_1000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_3000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ct_traffic__MyRadioButton"
+                    android:text="@string/ct_traffic__distance_3000"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/circum_rb_5000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ct_traffic__MyRadioButton"
+                    android:text="@string/ct_traffic__distance_5000"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/ct_traffic__color_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/circum_ll_progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circum_ll_mylocation"
+        android:gravity="center"
+        android:padding="5dp"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/circum_pb"
+            style="@style/CT__AppTheme.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/circum_tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/ct_traffic__loading"
+            android:textColor="@color/ct_traffic__color_black"
+            android:textSize="20sp" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/circum_lv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@color/ct_traffic__color_list_cache_hint"
+        android:background="@color/ct_traffic__color_list_backgroud"
+        android:layout_below="@id/circum_ll_progressbar"
+        android:fastScrollEnabled="true" />
+
+</RelativeLayout>

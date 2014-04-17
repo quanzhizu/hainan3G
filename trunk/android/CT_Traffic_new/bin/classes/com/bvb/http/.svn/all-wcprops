@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http
+END
+BVBDBHelper.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBDBHelper.class
+END
+BVBHttpRequest.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest.class
+END
+BVBDownLoadTask.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBDownLoadTask.class
+END
+MD5.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/MD5.class
+END
+BVBURL$URLFiled.class
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBURL$URLFiled.class
+END
+BVBURL.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBURL.class
+END
+BVBHttpRequest$2$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest$2$1.class
+END
+BVBHttpRequest$3$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest$3$1.class
+END
+IBVBHttpRequestListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/IBVBHttpRequestListener.class
+END
+IBVBHttpLoadImageCallBack.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/IBVBHttpLoadImageCallBack.class
+END
+IBVBDownLoadTaskListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/IBVBDownLoadTaskListener.class
+END
+IBVBHttpLoadTextCallBack.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/IBVBHttpLoadTextCallBack.class
+END
+BVBDownloadParams.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBDownloadParams.class
+END
+BVBHttpRequest$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest$1.class
+END
+BVBHttpRequest$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest$2.class
+END
+BVBHttpClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpClient.class
+END
+BVBHttpRequest$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/BVBHttpRequest$3.class
+END
+SimpleDownLoadTaskListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/bin/classes/com/bvb/http/SimpleDownLoadTaskListener.class
+END

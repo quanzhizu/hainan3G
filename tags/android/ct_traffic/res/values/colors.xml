@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_red">#7f00</color>
+    <color name="color_blue">#770000ff</color>
+    <color name="color_green">#7700ff00</color>
+    <color name="color_yellow">#77ffff00</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="color_black">#FF000000</color>
+    <color name="color_title_text">#FF777777</color>
+    <color name="color_bottom_text">#FF93989d</color>
+    <color name="color_list_cache_hint">#00000000</color>
+    <color name="color_list_backgroud">#FFFFFFFF</color>
+    <color name="text_color_deep_gray">#404040</color>
+    <color name="layout_color_gray">#55000000</color>
+    <color name="text_color_gray">#FF777777</color>
+    <color name="layout_bg">#FFeeeeee</color>
+    <color name="color_receiver_text">#ff4c5663</color>
+    <color name="color_single_choice_text">#FF323232</color>
+	<color name="dialog_line_color">#FF4169e1</color>
+	<color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+    <color name="color_my_place">#ff02591b</color>
+    
+    <drawable name="ab_bg_black">#aa000000</drawable>
+    <drawable name="ab_bg_split_black">#cc000000</drawable>
+    
+    <color name="transparent_gray">#A000</color>
+</resources>

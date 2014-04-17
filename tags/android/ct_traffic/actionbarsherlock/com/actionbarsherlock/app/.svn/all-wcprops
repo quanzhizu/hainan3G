@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app
+END
+ActionBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/ActionBar.java
+END
+SherlockListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockListActivity.java
+END
+SherlockPreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockPreferenceActivity.java
+END
+SherlockActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockActivity.java
+END
+SherlockExpandableListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockExpandableListActivity.java
+END
+SherlockListFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockListFragment.java
+END
+SherlockFragmentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockFragmentActivity.java
+END
+SherlockDialogFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockDialogFragment.java
+END
+SherlockFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/actionbarsherlock/com/actionbarsherlock/app/SherlockFragment.java
+END

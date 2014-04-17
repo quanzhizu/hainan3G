@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values
+END
+ct_traffic__attrs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__attrs.xml
+END
+ct_traffic__bools.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__bools.xml
+END
+ct_traffic__dimens.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__dimens.xml
+END
+ct_traffic__ids.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__ids.xml
+END
+ct_traffic__arrays.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__arrays.xml
+END
+ct_traffic__colors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__colors.xml
+END
+ct_traffic__styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__styles.xml
+END
+ct_traffic__config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__config.xml
+END
+ct_traffic__themes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__themes.xml
+END
+ct_traffic__strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/res/values/ct_traffic__strings.xml
+END

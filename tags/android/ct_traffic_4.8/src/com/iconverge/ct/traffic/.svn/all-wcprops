@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic/MainActivity.java
+END
+TrafficApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic/TrafficApplication.java
+END
+BaseMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic/BaseMapActivity.java
+END
+SherlockMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic/SherlockMapActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/2443/tags/android/ct_traffic_4.8/src/com/iconverge/ct/traffic/BaseActivity.java
+END

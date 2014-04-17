@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000001" >
+
+    <FrameLayout
+        android:id="@+id/player_surface_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="clip_horizontal" >
+
+        <SurfaceView
+            android:id="@+id/player_surface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/player_overlay_header"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/player_surface_frame"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ad" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/player_overlay_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:background="@drawable/video_list_length_bg"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textSize="36dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/player_overlay_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:background="@color/transparent_gray"
+        android:paddingLeft="5dp"
+        android:visibility="gone"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/player_overlay_title"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/title"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/player_overlay_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/player_overlay_systime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+</RelativeLayout>

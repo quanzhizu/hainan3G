@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ct_traffic__type_film_u" android:state_enabled="false"/>
+    <item android:drawable="@drawable/ct_traffic__type_film_u" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ct_traffic__type_film_d"/>
+
+</selector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/region_item_tv_name"
+        android:singleLine="true"
+        android:textSize="20dp"
+        android:textColor="@color/name_textview_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:duplicateParentState="true"
+        android:text="江北区" />
+
+    <TextView
+        android:id="@+id/region_item_tv_id"
+        style="@style/text_black_18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="jiangbei" />
+
+</LinearLayout>

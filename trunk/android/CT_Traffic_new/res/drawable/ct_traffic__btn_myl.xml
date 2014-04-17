@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+
+    <item android:drawable="@drawable/ct_traffic__btn_myl_pressed" android:state_pressed="true"/>
+ <!-- pressed -->
+    <item android:drawable="@drawable/ct_traffic__btn_myl_normal" android:state_enabled="false"/>
+ <!-- disabled -->
+    <item android:drawable="@drawable/ct_traffic__btn_myl_normal" android:state_enabled="true"/>
+ <!-- default -->
+</selector>

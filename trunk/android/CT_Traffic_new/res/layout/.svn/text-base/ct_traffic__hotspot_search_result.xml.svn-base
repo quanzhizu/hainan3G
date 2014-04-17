@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ct_traffic__color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/hotspot_search_result_ll_condition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hotspot_search_result_btn_distance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ct_traffic__distance_500" />
+
+        <Button
+            android:id="@+id/hotspot_search_result_btn_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/hotspot_search_result_btn_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:text="@string/ct_traffic__sort_by_default" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hotspot_search_result_ll_progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hotspot_search_result_ll_condition"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <ProgressBar
+            android:id="@+id/hotspot_search_result_pb"
+            style="@style/CT__AppTheme.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/hotspot_search_result_tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/ct_traffic__loading"
+            android:textColor="@color/ct_traffic__color_black"
+            android:textSize="20sp" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/hotspot_search_result_lv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/hotspot_search_result_ll_progressbar"
+        android:background="@color/ct_traffic__color_list_backgroud"
+        android:cacheColorHint="@color/ct_traffic__color_list_cache_hint"
+        android:fastScrollEnabled="true" />
+
+</RelativeLayout>

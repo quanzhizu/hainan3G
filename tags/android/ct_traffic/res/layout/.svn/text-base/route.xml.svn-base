@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/start_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/start_edit_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp" >
+
+            <EditText
+                android:id="@+id/start_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:hint="@string/start"
+                android:paddingBottom="0dp"
+                android:paddingRight="15dp"
+                android:paddingTop="0dp"
+                android:singleLine="true"
+                android:text="@string/my_point"
+                android:textColor="@color/color_my_place"
+                android:textSize="18dp" />
+
+            <ProgressBar
+                android:id="@+id/start_progressbar"
+                style="@style/AppTheme.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/start_edit"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/spinner_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/start_edit_layout"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/spinner" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/end_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/end_edit_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp" >
+
+            <EditText
+                android:id="@+id/end_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edittext_bg"
+                android:gravity="center_vertical"
+                android:hint="@string/end"
+                android:imeOptions="actionDone"
+                android:paddingBottom="0dp"
+                android:paddingRight="15dp"
+                android:paddingTop="0dp"
+                android:singleLine="true"
+                android:textColor="@color/color_my_place"
+                android:textSize="18dp" />
+
+            <ProgressBar
+                android:id="@+id/end_progressbar"
+                style="@style/AppTheme.ProgressBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/end_edit"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/spinner_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/end_edit_layout"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/spinner" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imagebtn_roadsearch_tab_driving"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/mode_driving_focused" />
+
+        <ImageButton
+            android:id="@+id/imagebtn_roadsearch_tab_transit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/mode_transit" />
+
+        <ImageButton
+            android:id="@+id/imagebtn_roadsearch_tab_walk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/mode_walk" />
+    </LinearLayout>
+
+</LinearLayout>

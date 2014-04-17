@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/hotspot_search_result_item_iv_hotspot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ct_traffic__avatar_default" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ct_traffic__avatar_bg" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/hotspot_search_result_item_rl_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/hotspot_search_result_item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/ct_traffic__name_textview_color"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/hotspot_search_result_item_tv_tel_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ct_traffic__body_textview_color" />
+
+                <TextView
+                    android:id="@+id/hotspot_search_result_item_tv_tel_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ct_traffic__body_textview_color" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hotspot_search_result_item_tv_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:drawableLeft="@drawable/ct_traffic__loc"
+                android:textColor="@color/ct_traffic__distance_textview_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/hotspot_search_result_item_tv_snippet_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ct_traffic__body_textview_color" />
+
+            <TextView
+                android:id="@+id/hotspot_search_result_item_tv_snippet_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ct_traffic__body_textview_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

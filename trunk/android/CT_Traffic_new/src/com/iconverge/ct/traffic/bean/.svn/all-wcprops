@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean
+END
+CategoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/CategoryBean.java
+END
+ParkBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/ParkBean.java
+END
+CameraPoiBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/CameraPoiBean.java
+END
+RegionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/RegionBean.java
+END
+Step.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/Step.java
+END
+PoiResultBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/trigwirelessservice/!svn/ver/3832/trunk/android/CT_Traffic_new/src/com/iconverge/ct/traffic/bean/PoiResultBean.java
+END

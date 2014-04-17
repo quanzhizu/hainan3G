@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/ct_traffic__base_actionbar_bg"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/id_bottom_car_park"
+        style="@style/ct_traffic__bottom"
+        android:src="@drawable/ct_traffic__car_park" />
+
+    <ImageButton
+        android:id="@+id/id_bus_routes"
+        style="@style/ct_traffic__bottom"
+        android:src="@drawable/ct_traffic__bus_routes" />
+
+    <ImageButton
+        android:id="@+id/id_bottom_traffic"
+        style="@style/ct_traffic__bottom"
+        android:src="@drawable/ct_traffic__traffic" />
+
+    <ImageButton
+        android:id="@+id/id_bottom_search"
+        style="@style/ct_traffic__bottom"
+        android:src="@drawable/ct_traffic__search_normal" />
+
+    <ImageButton
+        android:id="@+id/id_bottom_hotspot"
+        style="@style/ct_traffic__bottom"
+        android:src="@drawable/ct_traffic__hotspot" />
+
+</LinearLayout>

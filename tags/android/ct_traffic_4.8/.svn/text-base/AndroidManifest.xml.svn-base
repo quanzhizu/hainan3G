@@ -1,0 +1,112 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iconverge.ct.traffic"
+    android:versionCode="1" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:name="com.iconverge.ct.traffic.TrafficApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+
+        <!--
+        <provider
+            android:name=".poisearch.MySuggestionProvider"
+            android:authorities="com.iconverge.ct.traffic.poisearch.MySuggestionProvider" >
+        </provider>
+        -->
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Styled.NoTitle"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable">
+            </meta-data>
+            -->
+        </activity>
+        <activity
+            android:name=".route.RouteActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/route"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name=".route.RouteListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/route"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name=".circum.CircumActivity"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".hotspot.HotspotGridActivity"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".park.RegionActivity"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".park.ParkActivity"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".busstation.StationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.Sherlock.Light"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".hotspot.HotspotSearchResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+             android:theme="@style/Theme.Sherlock.Light"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.iconverge.test.TestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.videolan.vlc.gui.video.VideoPlayerActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Sherlock"
+            >
+        </activity>
+    </application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+    
+</manifest>

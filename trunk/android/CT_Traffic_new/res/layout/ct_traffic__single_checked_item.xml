@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/text1"
+	android:textColor="@color/ct_traffic__color_single_choice_text"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:gravity="center_vertical"
+	android:checkMark="@drawable/ct_traffic__single_check_btn"
+	android:paddingLeft="6dip"
+	android:paddingRight="6dip"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	/>

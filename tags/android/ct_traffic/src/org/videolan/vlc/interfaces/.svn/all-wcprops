@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces
+END
+IAudioServiceCallback.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/IAudioServiceCallback.aidl
+END
+OnPlayerControlListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/OnPlayerControlListener.java
+END
+IAudioService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/IAudioService.aidl
+END
+ISortable.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/ISortable.java
+END
+IPlayerControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/IPlayerControl.java
+END
+IAudioPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/IAudioPlayer.java
+END
+IAudioPlayerControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/trigwirelessservice/!svn/ver/2442/tags/android/ct_traffic/src/org/videolan/vlc/interfaces/IAudioPlayerControl.java
+END
